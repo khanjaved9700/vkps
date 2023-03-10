@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- set fav icon -->
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+  <title>vkps</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="home.css">
+  <script src="js/script.js" defer></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!-- <a class="navbar-brand" href="#myPage">Logo</a> -->
+      <img src="img/logo.jpg" alt="logo" width="80" height="80">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#">REGISTRATION</a></li>
+        <li><a href="#curriculam">CURRICULAM</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="adminMessage.html">Manager Message</a></li>
+            <li><a href="adminMessage.html">Director Message</a></li>
+            <li><a href="adminMessage.html">Principal Message</a></li>
+            <li><a href="visionMission.html">Vission & Mission</a></li> 
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/field.jpeg" alt="field" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>VKPS Field</h3>
+          <p>Students Playground.</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/balmela.jpeg" alt="Chicago" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>BAL MELA</h3>
+        <p>Children Day Celebration</p>
+      </div>      
+    </div>
+  
+    <div class="item">
+      <img src="img/azadiamrit.jpeg" alt="Azadi Ka Amrit Mahotsav" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>AZADI KA AMRIT MAHOTSAV</h3>
+        <p>Azadi Ka Amrit Mahotsav is an initiative of the Government of India to celebrate</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/inside.jpeg" alt="vkps inside" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>VKPS INSIDE AREA</h3>
+        <p>V. K. Public School Jogiyabari</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/tour.jpeg" alt="tour Kushinagar" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>EDUCATIONAL TOUR : KUSHINAGAR</h3>
+        <p>Kushinagar : This is a Buddhist pilgrimage</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/prayer.jpeg" alt="Prayer Field" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>VKPS PRAYER</h3>
+        <p>Morning Prayer:Subaj Savere Lekar Tera Naam Parbhu</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/vkfoolwari.jpeg" alt="tour Nepal" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>Educational Tour :2019</h3>
+        <p>Butwal Nepal</p>
+      </div>      
+    </div>
+    <div class="item">
+      <img src="img/science-carsoul.jpeg" alt="science Exhibition" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>Educational Tour :2019</h3>
+        <p>Butwal Nepal</p>
+      </div>      
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- Container (About the School Section) -->
+
+<div class="container-fluid bg-grey about-container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="img-container">
+        <img src="img/schoolbuilding.jpeg" alt="School Building" class="img-responsive">
+      </div>
+    </div>
+    <div class="col-sm-6 text-center">
+      <h2 style="letter-spacing: 7px; color:#011015 !important;">WELCOME TO V. K. PUBLIC SCHOOL</h2>
+      <p style="color: #011015 !important;"><em>We believe in quality education!</em></p><br>
+      <p >V.K. Public School is a co-educational school that provides education to students from KG to Class 8th. The school is affiliated with the Central Board of Secondary Education (CBSE), which is a prestigious education board in India. It is located in the Mahrajganj district of Uttar Pradesh, which is a rural area in northern India.</p>
+      <p>The school has a learner-centered approach to education and focuses on academic excellence, as well as humanism, knowledge, and compassion. The aim of the school is to provide students with an environment where they can develop their creative qualities and academic abilities in unique and entrepreneurial ways. At V.K. Public School, students are encouraged to express themselves and pursue their interests outside of the classroom.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (TOUR Section) -->
+<div id="curriculam" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">CURRICULAM</h3>
+    <h5 class="text-center i">Acctivities</h5>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/science-card.jpeg" alt="bal mela">
+          <h5>Science Exhibition</h5>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/vkpsAnnual.jpeg" alt="VKPS Annual" width="400" height="400">
+          <h5>Annual Functional Celebration</h5>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="img/vkpsSSB.jpeg" alt="Art Competation" width="400" height="400">
+          <h5>Art Competation</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Modal -->
+<!-- Container (Contact Section) -->
+
+<div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>feel free to contact us!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p><span class="glyphicon glyphicon-map-marker"></span>V.K. Public School -Jogiyabari, Sonauli Road, Maharajganj -273162</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9794444292</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 8419881565</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: vkpublicschool1@gmail.com</p>
+    </div>
+    <form action="/send-email" method="post" onsubmit="send_email(this); return false;">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="message" placeholder="Message" rows="5" required></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" onclick="send_email()">Send</button>
+        </div>
+      </div>
+    </div>
+    </form>
+  </div>
+  <br>
+  <h3 class="text-center">Alumni Messgae</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#st1">Kamran</a></li>
+    <li><a data-toggle="tab" href="#st2">Asif</a></li>
+    <li><a data-toggle="tab" href="#st3">Mohsin</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="st1" class="tab-pane fade in active">
+      <h3>Memories</h3>
+      <p>"I will always cherish my time at VKPS -Jogiybari. It's where I formed lifelong friendships and gained the foundation for my future. Thank you for the unforgettable memories and invaluable education."</p>
+    </div>
+    <div id="st2" class="tab-pane fade">
+      <h3>VKPS</h3>
+      <p>" Proud to be a part of the school's legacy and excited to see it continue to inspire and nurture future generations of students."</p>
+    </div>
+    <div id="st3" class="tab-pane fade">
+      <h3>Thankful!</h3>
+      <p>"Thanks to the education I received at this school. Grateful to have been a part of this institution."</p>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<div id="googleMap" class="map-container">
+<img src="img/vkmap.png" alt="map" width="100%" height="auto">
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Designed by  <a href="https://www.techy4u.in/about/" data-toggle="tooltip" title="Visit www.techy4u.in">techy4u</a></p> 
+</footer>
+
+</div>
+
+</body>
+</html>
