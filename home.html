@@ -15,34 +15,6 @@
   
   <link rel="stylesheet" href="home.css">
   <script src="js/script.js" defer></script>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    
-    /* Create two equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
-    }
-    
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-      .column {
-        width: 100%;
-      }
-    }
-    </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -63,7 +35,8 @@
         <li><a href="#">REGISTRATION</a></li>
         <li><a href="#curriculam">CURRICULAM</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li class="dropdown">
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <!-- <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT US
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -72,7 +45,7 @@
             <li><a href="adminMessage.html">Principal Message</a></li>
             <li><a href="visionMission.html">Vission & Mission</a></li> 
           </ul>
-        </li>
+        </li> -->
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
       </ul>
     </div>
