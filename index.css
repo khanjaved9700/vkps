@@ -9,7 +9,14 @@
     color: #111;
   }
   
- 
+  .about-container {
+    background-color: #fbfcfd !important;
+    padding: 100px 25px;
+    font-size: 20px;
+    color: #111;
+    font-family: Montserrat, sans-serif;
+  }
+
   #contact{
     margin-top: 50px;
     margin-bottom: 50px;
