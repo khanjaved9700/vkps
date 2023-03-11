@@ -13,8 +13,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   
-  <link rel="stylesheet" href="home.css">
-  <script src="js/script.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="js/index.js" defer></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -46,11 +46,24 @@
             <li><a href="visionMission.html">Vission & Mission</a></li> 
           </ul>
         </li> -->
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li> -->
       </ul>
     </div>
   </div>
 </nav>
+
+<div class="jumbotron text-center">
+  <h1>V. K. PUBLIC SCHOOL</h1> 
+  <p>Best quality education!</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-danger">Subscribe</button>
+      </div>
+    </div>
+  </form>
+</div>
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -69,31 +82,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/field.jpeg" alt="field" class="img-carousel">
-      <div class="carousel-caption">
-        <h3>VKPS Field</h3>
-          <p>Students Playground.</p>
-      </div>      
-    </div>
-
-    <div class="item">
-      <img src="img/balmela.jpeg" alt="Chicago" class="img-carousel">
-      <div class="carousel-caption">
-        <h3>BAL MELA</h3>
-        <p>Children Day Celebration</p>
-      </div>      
-    </div>
-  
-    <div class="item">
-      <img src="img/azadiamrit.jpeg" alt="Azadi Ka Amrit Mahotsav" class="img-carousel">
-      <div class="carousel-caption">
-        <h3>AZADI KA AMRIT MAHOTSAV</h3>
-        <p>Azadi Ka Amrit Mahotsav is an initiative of the Government of India to celebrate</p>
-      </div>      
-    </div>
-
-    <div class="item">
-      <img src="img/inside.jpeg" alt="vkps inside" class="img-carousel">
+      <img src="img/inside.jpg" alt="vkps inside" class="img-carousel">
       <div class="carousel-caption">
         <h3>VKPS INSIDE AREA</h3>
         <p>V. K. Public School Jogiyabari</p>
@@ -101,7 +90,23 @@
     </div>
 
     <div class="item">
-      <img src="img/tour.jpeg" alt="tour Kushinagar" class="img-carousel">
+      <img src="img/balmela.jpg" alt="Chicago" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>BAL MELA</h3>
+        <p>Children Day Celebration</p>
+      </div>      
+    </div>
+  
+    <div class="item">
+      <img src="img/azadiamrit.jpg" alt="Azadi Ka Amrit Mahotsav" class="img-carousel">
+      <div class="carousel-caption">
+        <h3>AZADI KA AMRIT MAHOTSAV</h3>
+        <p>Azadi Ka Amrit Mahotsav is an initiative of the Government of India to celebrate</p>
+      </div>      
+    </div>
+
+    <div class="item">
+      <img src="img/tour1.jpg" alt="tour Kushinagar" class="img-carousel">
       <div class="carousel-caption">
         <h3>EDUCATIONAL TOUR : KUSHINAGAR</h3>
         <p>Kushinagar : This is a Buddhist pilgrimage</p>
@@ -109,7 +114,7 @@
     </div>
 
     <div class="item">
-      <img src="img/prayer.jpeg" alt="Prayer Field" class="img-carousel">
+      <img src="img/prayer.jpg" alt="Prayer Field" class="img-carousel">
       <div class="carousel-caption">
         <h3>VKPS PRAYER</h3>
         <p>Morning Prayer:Subaj Savere Lekar Tera Naam Parbhu</p>
@@ -117,17 +122,17 @@
     </div>
 
     <div class="item">
-      <img src="img/vkfoolwari.jpeg" alt="tour Nepal" class="img-carousel">
+      <img src="img/tour2.jpg" alt="tour Nepal" class="img-carousel">
       <div class="carousel-caption">
         <h3>Educational Tour :2019</h3>
         <p>Butwal Nepal</p>
       </div>      
     </div>
     <div class="item">
-      <img src="img/science-carsoul.jpeg" alt="science Exhibition" class="img-carousel">
+      <img src="img/science-carsoul.jpg" alt="science Exhibition" class="img-carousel">
       <div class="carousel-caption">
-        <h3>Educational Tour :2019</h3>
-        <p>Butwal Nepal</p>
+        <h3>Science Exhibition & Foundation Day</h3>
+        <p>It's not rocket science</p>
       </div>      
     </div>
   </div>
@@ -150,7 +155,7 @@
   <div class="row">
     <div class="col-sm-6">
       <div class="img-container">
-        <img src="img/schoolbuilding.jpeg" alt="School Building" class="img-responsive">
+        <img src="img/schoolbuilding.jpeg" alt="School Building">
       </div>
     </div>
     <div class="col-sm-6 text-center">
@@ -219,7 +224,7 @@
       <br>
       <div class="row">
         <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit" onclick="send_email()">Send</button>
+          <button class="sendbtn pull-right" type="submit" onclick="send_email()">Send</button>
         </div>
       </div>
     </div>
@@ -251,7 +256,7 @@
 
 <!-- Image of location/map -->
 <div id="googleMap" class="map-container">
-<img src="img/vkmap.png" alt="map" width="100%" height="auto">
+<img src="img/map.png" alt="map" width="100%" height="auto">
 
 <!-- Footer -->
 <footer class="text-center">

@@ -3,6 +3,19 @@
     line-height: 1.8;
     color: #818181;
   }
+  .admin-message{
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #303030;
+    font-weight: 500;
+    text-align: justify;
+  }
+  .admin-message h3{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+  }
   h2 {
     font-size: 24px;
     color: #303030;
@@ -96,6 +109,15 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  .panel-body{
+    background-color: #04526e !important;
+  }
+  .panel-body img{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
   .panel-footer {
     background-color: white !important;
   }
@@ -134,9 +156,10 @@
     color: #fff !important;
   }
   footer .glyphicon {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: #010e04 !important;
+    color: #ffffff !important;
+  }
+  footer{
+    background-color: #010e04;
   }
   .slideanim {visibility:hidden;}
   .slide {

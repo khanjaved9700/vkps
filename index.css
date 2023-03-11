@@ -9,39 +9,21 @@
     color: #111;
   }
   
-  #curriculam{
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+ 
   #contact{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .img-carousel {
-    width: 100%;
-    height: auto;
-    max-width: 1200px;
-    max-height: 850px;
-  }
-
-  /* about the school */
-  .about-container{
-  margin: 80px 150px;
-  }
-  .img-container {
-    margin: 20px;
-    padding: 10px;
-  }
+ 
   .img-container img{
+    max-width: 600px;
+    max-height: 600px;
     border-radius: 20px;
-  }
-  
-  .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
   }
-
+  
   .carousel-inner img {
     -webkit-filter: grayscale(2%);
     filter: grayscale(2%); /* make all photos black and white */ 
@@ -87,14 +69,14 @@
     width: 340px;
     height: 340px;
   }
-  .btn {
+  .sendbtn {
     padding: 10px 20px;
     background-color: #333;
     color: #f1f1f1;
     border-radius: 0;
     transition: .2s;
   }
-  .btn:hover, .btn:focus {
+  .sendbtn:hover, .sendbtn:focus {
     border: 1px solid #333;
     background-color: #fff;
     color: #000;
@@ -141,6 +123,13 @@
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
+  }
+  /* secon nav heading */
+  .jumbotron {
+    background-color: #04526e !important;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
   }
   .open .dropdown-toggle {
     color: #fff;
